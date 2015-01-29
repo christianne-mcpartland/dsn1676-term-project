@@ -15,3 +15,11 @@ html {
 *, *::before, *::after {
     box-sizing: inherit;
 }
+
+body {
+    background-color: black;
+}
+
+.christianne {
+    color: white;
+}
