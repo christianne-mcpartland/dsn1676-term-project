@@ -128,7 +128,7 @@ h1:hover {
     position: absolute;
     width: 300px;
     height: 300px;
-    transition: 5s;
+    transition: 2s;
 }
 
 @keyframes cloud-move {
