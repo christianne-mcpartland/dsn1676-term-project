@@ -16,10 +16,20 @@ html {
     box-sizing: inherit;
 }
 
+.hamburger {
+    background-image: url(../images/hamburger.svg);
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 30px;
+    left: 800px;
+    width: 50px;
+    height: 50px;    
+}
+
 h1 {
     position: absolute;
-    top: 500px;
-    left: 400px;
+    top: 425px;
+    left: 350px;
     color: #ededad;
     font-weight: bold;
     font-size: 4rem;
@@ -70,9 +80,8 @@ h1:hover {
     position: absolute;
     width: 300px;
     height: 300px;
-    top: 200px;
-    left: 450px;
-    transition: all 0.2s linear;
+    margin: auto;
+    transition: all 6s linear;
 }
 
 .owl:hover {
@@ -82,6 +91,7 @@ h1:hover {
 
 body {
     background-color: #313250;
+    padding: 0;
 }
 
 @keyframes cloud-move {
@@ -94,12 +104,31 @@ body {
     
 }
 
+@-webkit-keyframes cloud-move {
+    0% {
+        -webkit-transform: translateY(0px);
+    }
+    50% {
+        -webkit-transform: translateX(-100px);
+    }
+    
+}
+
 @keyframes moon-smaller {
     0% {
         transform: scale(1,1);
     }
     100% {
         transform: scale(0.5,0.5);
+    }
+}
+
+@-webkit-keyframes moon-smaller {
+    0% {
+        -webkit-transform: scale(1,1);
+    }
+    100% {
+        -webkit-transform: scale(0.5,0.5);
     }
 }
 
