@@ -16,28 +16,58 @@ html {
     box-sizing: inherit;
 }
 
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.banner-bg {
+    background-color: #313250;
+    width: 100%;
+    height: 700px;
+}
+
 .hamburger {
     background-image: url(../images/hamburger.svg);
     background-repeat: no-repeat;
     position: absolute;
     top: 30px;
-    left: 800px;
+    left: 90%;
     width: 50px;
     height: 50px;    
+}
+
+.hamburger:hover {
+    background-image: url(../images/hamburger-blue.svg);
+    transition: 10s;
 }
 
 h1 {
     position: absolute;
     top: 425px;
-    left: 350px;
+    left: 50%;
     color: #ededad;
-    font-weight: bold;
-    font-size: 4rem;
+    font-size: 3rem;
+    font-weight: 100;
 }
 
 h1:hover {
     color: #55f0c6;
     cursor: pointer;
+    transition: 2s ease-in-out; 
+}
+
+.night-life:hover .d-b {
+    display: block;
+}
+
+.d-b {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    top: 550px;
+    left: 50%;
+    display: none;
 }
 
 .moon {
@@ -47,8 +77,9 @@ h1:hover {
     width: 500px;
     height: 400px;
     top: 20px;
-    left: 250px;
-    animation: moon-smaller 10s alternate infinite;
+    left: 40%;
+    animation: moon-smaller 6s alternate infinite;
+    -webkit-animation: moon-smaller 6s alternate infinite;
 }
 
 .cloud {
@@ -58,8 +89,9 @@ h1:hover {
     width: 400px;
     height: 400px;
     top: 200px;
-    left: 250px;
+    left: 50%;
     animation: cloud-move 10s linear forwards infinite;
+    -webkit-animation: cloud-move 10s linear forwards infinite;
 }
 
 .cloud-two {
@@ -69,8 +101,9 @@ h1:hover {
     width: 500px;
     height: 500px;
     top: 150px;
-    left: 400px;
+    left: 30%;
     animation: cloud-move 10s linear forwards infinite;
+    -webkit-animation: cloud-move 10s linear forwards infinite;
 }
     
 
@@ -81,17 +114,12 @@ h1:hover {
     width: 300px;
     height: 300px;
     margin: auto;
-    transition: all 6s linear;
 }
 
 .owl:hover {
     background-image: url(../images/owl-two.svg);
     background-repeat: no-repeat;
-}
-
-body {
-    background-color: #313250;
-    padding: 0;
+    transition: 5s;
 }
 
 @keyframes cloud-move {
@@ -119,7 +147,7 @@ body {
         transform: scale(1,1);
     }
     100% {
-        transform: scale(0.5,0.5);
+        transform: scale(0.75,0.755);
     }
 }
 
