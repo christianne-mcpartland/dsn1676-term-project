@@ -6,15 +6,14 @@
 	.st0{fill:url(#SVGID_1_);}
 </style>
 <linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="0" y1="87.911" x2="175.8221" y2="87.911">
-	<stop  offset="0" style="stop-color:#F1F2F2"/>
-	<stop  offset="6.872653e-03" style="stop-color:#EEEFF0"/>
-	<stop  offset="7.225728e-02" style="stop-color:#D8DADB"/>
-	<stop  offset="0.1391" style="stop-color:#C8CACC"/>
-	<stop  offset="0.2078" style="stop-color:#BFC1C3"/>
-	<stop  offset="0.2809" style="stop-color:#BCBEC0"/>
-	<stop  offset="0.6685" style="stop-color:#909AA7"/>
-	<stop  offset="0.8926" style="stop-color:#8892A1"/>
-	<stop  offset="1" style="stop-color:#6D7E8F"/>
+	<stop  offset="0" style="stop-color:#FFE6B4"/>
+	<stop  offset="4.925191e-02" style="stop-color:#FFE2A6"/>
+	<stop  offset="0.1233" style="stop-color:#FFDE96"/>
+	<stop  offset="0.1996" style="stop-color:#FFDB8E"/>
+	<stop  offset="0.2809" style="stop-color:#FFDA8B"/>
+	<stop  offset="0.6685" style="stop-color:#FFE1A1"/>
+	<stop  offset="0.8926" style="stop-color:#FFDA8B"/>
+	<stop  offset="1" style="stop-color:#FFD67B"/>
 </linearGradient>
 <circle class="st0" cx="87.9" cy="87.9" r="87.9"/>
 <g>

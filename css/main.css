@@ -16,15 +16,51 @@ html {
     box-sizing: inherit;
 }
 
+h1 {
+    position: absolute;
+    top: 500px;
+    left: 400px;
+    color: #ededad;
+    font-weight: bold;
+    font-size: 4rem;
+}
+
+h1:hover {
+    color: #55f0c6;
+    cursor: pointer;
+}
+
 .moon {
     background-image: url(../images/owl-moon.svg);
     background-repeat: no-repeat;
     position: absolute;
-    width: 300px;
-    height: 300px;
-    top: 250px;
-    left: 300px;
-    transition: all 0.2s linear;
+    width: 500px;
+    height: 400px;
+    top: 20px;
+    left: 250px;
+    animation: moon-smaller 10s alternate infinite;
+}
+
+.cloud {
+    background-image: url(../images/cloud-one.svg);
+    background-repeat: no-repeat;
+    position: absolute;
+    width: 400px;
+    height: 400px;
+    top: 200px;
+    left: 250px;
+    animation: cloud-move 10s linear forwards infinite;
+}
+
+.cloud-two {
+    background-image: url(../images/cloud-one.svg);
+    background-repeat: no-repeat;
+    position: absolute;
+    width: 500px;
+    height: 500px;
+    top: 150px;
+    left: 400px;
+    animation: cloud-move 10s linear forwards infinite;
 }
     
 
@@ -34,8 +70,8 @@ html {
     position: absolute;
     width: 300px;
     height: 300px;
-    top: 250px;
-    left: 300px;
+    top: 200px;
+    left: 450px;
     transition: all 0.2s linear;
 }
 
@@ -47,3 +83,34 @@ html {
 body {
     background-color: #313250;
 }
+
+@keyframes cloud-move {
+    0% {
+        transform: translateY(0px);
+    }
+    50% {
+        transform: translateX(-100px);
+    }
+    
+}
+
+@keyframes moon-smaller {
+    0% {
+        transform: scale(1,1);
+    }
+    100% {
+        transform: scale(0.5,0.5);
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
