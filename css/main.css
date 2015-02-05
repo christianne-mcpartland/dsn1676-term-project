@@ -33,7 +33,7 @@ body {
 h1 {
     position: absolute;
     top: 425px;
-    left: 50%;
+    left: 30%;
     color: #ededad;
     font-size: 4rem;
     font-weight: 100;
@@ -56,7 +56,7 @@ h1:hover {
     width: 100px;
     height: 100px;
     top: 550px;
-    left: 50%;
+    left: 35%;
     display: none;
 }
 
@@ -152,12 +152,87 @@ h1:hover {
     }
 }
 
-@media only screen and (min-width: 38em) {
+@media only screen and (min-width: 20em) {
     
     
+    .moon {
+    background-image: url(../images/owl-moon.svg);
+    background-repeat: no-repeat;
+    position: absolute;
+    width: 350px;
+    height: 250px;
+    top: 20%;
+    left: 40%;
+    -webkit-animation: moon-smaller 6s alternate infinite;
+    animation: moon-smaller 6s alternate infinite;
+}
+
+.cloud {
+    background-image: url(../images/cloud-one.svg);
+    background-repeat: no-repeat;
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    top: 30%;
+    left: 50%;
+    -webkit-animation: cloud-move 10s linear forwards infinite;
+    animation: cloud-move 10s linear forwards infinite;
+}
+
+.cloud-two {
+    background-image: url(../images/cloud-one.svg);
+    background-repeat: no-repeat;
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    top: 30%;
+    left: 30%;
+    -webkit-animation: cloud-move 10s linear forwards infinite;
+    animation: cloud-move 10s linear forwards infinite;
+}
+    
+}
+
+@media only screen and (min-width: 60em) {
 
 
+    .moon {
+    background-image: url(../images/owl-moon.svg);
+    background-repeat: no-repeat;
+    position: absolute;
+    width: 500px;
+    height: 400px;
+    top: 20px;
+    left: 40%;
+    -webkit-animation: moon-smaller 6s alternate infinite;
+    animation: moon-smaller 6s alternate infinite;
+}
 
+.cloud {
+    background-image: url(../images/cloud-one.svg);
+    background-repeat: no-repeat;
+    position: absolute;
+    width: 400px;
+    height: 400px;
+    top: 200px;
+    left: 50%;
+    -webkit-animation: cloud-move 10s linear forwards infinite;
+    animation: cloud-move 10s linear forwards infinite;
+}
+
+.cloud-two {
+    background-image: url(../images/cloud-one.svg);
+    background-repeat: no-repeat;
+    position: absolute;
+    width: 500px;
+    height: 500px;
+    top: 150px;
+    left: 30%;
+    -webkit-animation: cloud-move 10s linear forwards infinite;
+    animation: cloud-move 10s linear forwards infinite;
+}
+    
+}
 
 
 
