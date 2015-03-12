@@ -22,6 +22,21 @@ body {
     overflow-x: hidden;
 }
 
+.nav {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    background-color: #ccc;
+    display: none;
+}
+
+.nav a {
+    display: block;
+    padding: 0.5em;
+    text-decoration: none;
+    color: #000;
+}
+
 .banner-bg {
     background-color: #313250;
     width: 100%;
