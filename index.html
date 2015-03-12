@@ -12,15 +12,14 @@
 <body>
     
     <header>
-        <nav>
-            <input type="checkbox" class="nav-check" id="nav-check">
-            <label for="nav-check">Navigate</label>
-            <ul class="nav">
+        <a href="#nav" class="nav-btn" data-state="inactive">Navigate</a> <!-- "Navigate" will only show if broken -->
+		<nav class="nav-top">	
+            <ul>
                 <li><a href="#">Home</a></li>
                 <li><a href="#">History</a></li>
                 <li><a href="#">Natural Habitat</a></li>
                 <li><a href="#">Diet</a></li>
-            </ul>
+			</ul>
         </nav>
     </header>
     
@@ -40,6 +39,30 @@
             </div>
         </div>
     </div>
+    
+    <ul class="tabs">
+        <li><a class="js-current" href="#tab-1">Tab 1</a></li>
+        <li><a href="#tab-2">Tab 2</a></li>
+        <li><a href="#tab-3">Tab 3</a></li>
+    </ul>
+    
+    <div class="tab-panels">
+        <div class="panel" id="tab-1">
+            <h2>Tab 1</h2>
+        </div>
+        
+        <div class="panel" id="tab-2" hidden>
+            <h2>Tab 2</h2>
+            <p>Lomo taxidermy irony, pickled Carles organic single-origin coffee food truck ugh lo-fi.</p>
+        </div>
+    </div>
+    
+    <div class="panel" id="tab-3" hidden>
+        <h2>Tab 3</h2>
+    </div>
+    
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+  <script src="js/main.js"></script>
     
 </html>
 </body>

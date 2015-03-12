@@ -22,28 +22,12 @@ body {
     overflow-x: hidden;
 }
 
-.nav {
-    margin: 0;
-    padding: 0;
-    list-style-type: none;
-    background-color: #ccc;
-    display: none;
-}
-
-.nav a {
-    display: block;
-    padding: 0.5em;
-    text-decoration: none;
-    color: #000;
-}
-
 .banner-bg {
     background-color: #313250;
     width: 100%;
-    height: 700px;
+    height: 600px;
     padding: none;
 }
-
 
 h1 {
     position: absolute;
@@ -245,6 +229,18 @@ h1:hover {
     animation: cloud-move 10s linear forwards infinite;
 }
     
+}
+
+[hidden] {
+    display: none;
+}
+
+.tabs li {
+    display: inline-block;
+}
+
+.js-current {
+    background-color: beige;
 }
 
 
