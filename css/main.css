@@ -22,11 +22,46 @@ body {
     overflow-x: hidden;
 }
 
+header {
+    background-color: white;
+    position: relative;
+    z-index: 100;
+    padding: 0;
+    list-style-type: none;
+}
+
+ul {
+    list-style-type: none;
+    padding-bottom: 5em;
+}
+
+.btn-expand {
+    margin-top: 1.25em;
+    margin-left: 1.5em;
+    margin-bottom: 1.5em;
+    height: 40px;
+    background-color: white;
+}   
+
+.toggle-panel {
+    max-height: 0;
+    overflow: hidden;
+    transition: all 200ms linear;
+}
+
+.toggle-panel-expand {
+    max-height: 5em;
+}
+
+.nav-top {
+    color: white;
+}
+
 .banner-bg {
     background-color: #313250;
     width: 100%;
     height: 600px;
-    padding: none;
+    padding: 0;
 }
 
 h1 {
@@ -188,12 +223,19 @@ h1:hover {
     animation: cloud-move 10s linear forwards infinite;
 }
     
+.banner-bg {
+    background-color: #313250;
+    width: 100%;
+    height: 600px;
+    padding: none;
+}
+    
 }
 
 @media only screen and (min-width: 60em) {
 
 
-    .moon {
+.moon {
     background-image: url(../images/owl-moon.svg);
     background-repeat: no-repeat;
     position: absolute;
@@ -243,6 +285,10 @@ h1:hover {
     background-color: beige;
 }
 
+.panels {
+    float: left;
+    text-align: center;
+}
 
 
 
