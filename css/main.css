@@ -295,6 +295,51 @@ h1:hover {
     margin: 2em;
 }
 
+//
+
+section {
+  padding: 4em 1em;
+  position: relative;
+  border-bottom: 1px solid #ccc;
+  overflow: hidden;
+}
+
+section:nth-child(5) {
+  border: 0;
+}
+
+.panel {  
+  width: 250px;
+  top: 50%;
+  left: 50%;
+  background-color: yellow;
+  -webkit-transform: translateY(-11%);
+  transform: translateY(-11%);
+  color: darkgoldenrod;
+  text-align: center;
+  max-height: 0;
+  overflow: hidden;
+  transition: all 200ms linear;
+}
+
+.js-panel-collapse {
+  max-height: 10em;
+}
+
+.panel h2 {
+  margin: 0;
+  padding: 3rem 0;
+}
+
+button {
+    background-color: #1c767e;
+    height: 100px;
+    width: 100%;
+    color: lightyellow;
+    padding: none;
+    margin: 0;
+}
+
 
 
 
