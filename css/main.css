@@ -274,25 +274,22 @@ h1:hover {
     
 }
 
+
+button {
+    background-color: #1c767e;
+    height: 100px;
+    width: 100%;
+    color: lightyellow;
+    padding: none;
+    margin: 0;
+}
+
+
 [hidden] {
     display: none;
 }
 
-
-//
-
-section {
-  position: relative;
-  overflow: hidden;
-  padding: none;
-  padding-bottom: 0;
-}
-
-section:nth-child(5) {
-  border: 0;
-}
-
-.panel {  
+.panel-h {  
   top: 50%;
   background-color: white;
   color: black;
@@ -305,29 +302,76 @@ section:nth-child(5) {
   padding: 0;
 }
 
-.js-panel-collapse {
+.js-panel-collapse-h {
   max-height: 25em;
   padding: 2em;
   position: relative;
 }
 
-.panel p {
+.panel-h p {
   margin: 0;
   padding: 0.5rem 0;
   height: 15em;
 }
 
-button {
-    background-color: #1c767e;
-    height: 100px;
-    width: 100%;
-    color: lightyellow;
-    padding: none;
-    margin: 0;
-}
 
 //* Diet panel *//
 
+[hidden] {
+    display: none;
+}
+
+.panel-d {  
+  top: 50%;
+  background-color: white;
+  color: black;
+  max-height: 0;
+  overflow: hidden;
+  transition: all 200ms linear;
+  margin: auto 0;
+  float: left;
+  padding: 0;
+}
+
+.js-panel-collapse-d {
+  max-height: 25em;
+  padding: 1em;
+  position: relative;
+}
+
+.panel-d p {
+  margin: 0;
+  padding: 0.5rem 0;
+}
+
+//* Behavior panel *//
+
+[hidden] {
+    display: none;
+}
+
+.panel-b {  
+  top: 50%;
+  background-color: white;
+  color: black;
+  max-height: 0;
+  overflow: hidden;
+  transition: all 200ms linear;
+  margin: auto 0;
+  float: left;
+  padding: 0;
+}
+
+.js-panel-collapse-b {
+  max-height: 25em;
+  padding: 1em;
+  position: relative;
+}
+
+.panel-b p {
+  margin: 0;
+  padding: 0.5rem 0;
+}
 
 
 
