@@ -33,7 +33,12 @@ header {
 ul {
     text-decoration: none;
     list-style-type: none;
-}           
+    color: #313250; 
+}
+
+.nav a {
+    text-decoration: none;
+}
 
 .btn-expand {
     margin-top: 1.25em;
@@ -278,8 +283,9 @@ h1:hover {
 
 section {
   position: relative;
-  border-bottom: 1px solid #ccc;
   overflow: hidden;
+  padding: none;
+  padding-bottom: 0;
 }
 
 section:nth-child(5) {
@@ -287,7 +293,6 @@ section:nth-child(5) {
 }
 
 .panel {  
-  width: 250px;
   height: 600px;
   top: 50%;
   background-color: white;
@@ -298,16 +303,21 @@ section:nth-child(5) {
   max-height: 0;
   overflow: hidden;
   transition: all 200ms linear;
-  margin: 2em;
+  margin: auto 0;
+  float: left;
+  padding: 0;
 }
 
 .js-panel-collapse {
-  max-height: 10em;
+  max-height: 12em;
+  padding: 2em;
+  position: relative;
 }
 
-.panel h2 {
+.panel p {
   margin: 0;
-  padding: 3rem 0;
+  padding: 0.5rem 0;
+  height: 15em;
 }
 
 button {
@@ -318,11 +328,6 @@ button {
     padding: none;
     margin: 0;
 }
-
-
-
-
-
 
 
 
