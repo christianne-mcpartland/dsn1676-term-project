@@ -293,11 +293,8 @@ section:nth-child(5) {
 }
 
 .panel {  
-  height: 600px;
   top: 50%;
   background-color: white;
-  -webkit-transform: translateY(-11%);
-  transform: translateY(-11%);
   color: black;
   text-align: center;
   max-height: 0;
@@ -309,7 +306,7 @@ section:nth-child(5) {
 }
 
 .js-panel-collapse {
-  max-height: 12em;
+  max-height: 25em;
   padding: 2em;
   position: relative;
 }
@@ -328,6 +325,8 @@ button {
     padding: none;
     margin: 0;
 }
+
+//* Diet panel *//
 
 
 
