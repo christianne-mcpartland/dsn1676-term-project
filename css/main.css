@@ -294,7 +294,6 @@ button {
   top: 50%;
   background-color: white;
   color: black;
-  text-align: center;
   max-height: 0;
   overflow: hidden;
   transition: all 200ms linear;
