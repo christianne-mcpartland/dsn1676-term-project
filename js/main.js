@@ -25,3 +25,5 @@ var $panelB = $('.panel-b');
 $btnCollapseB.on('click', function () {
     $panelB.toggleClass('js-panel-collapse-b');
 });
+
+$('.d-b').localscroll();

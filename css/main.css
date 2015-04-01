@@ -78,12 +78,6 @@ h1 {
     text-align: center;
 }
 
-h1:hover {
-    color: #55f0c6;
-    cursor: pointer;
-    transition: 2s ease-in-out; 
-}
-
 .night-life:hover .d-b {
     display: block;
 }
@@ -94,7 +88,6 @@ h1:hover {
     height: 100px;
     top: 550px;
     left: 35%;
-    display: none;
 }
 
 .moon {
