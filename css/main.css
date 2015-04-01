@@ -315,27 +315,6 @@ button {
   height: 15em;
 }
 
-.habitat {
-    -webkit-animation: habitat-smaller 6s alternate infinite;
-    animation: habitat-smaller 6s alternate infinite;
-}
-
-@keyframes habitat-smaller {
-    0% {
-        transform: scale(1,1);
-    }
-    100% {
-        transform: scale(0.75,0.755);
-    }
-}
-
-@-webkit-keyframes habitat-smaller {
-    0% {
-        -webkit-transform: scale(1,1);
-    }
-    100% {
-        -webkit-transform: scale(0.5,0.5);
-    }
 }
 
 //* Diet panel *//
@@ -365,29 +344,6 @@ button {
 .panel-d p {
   margin: 0;
   padding: 0.5rem 0;
-}
-
-.diet {
-    -webkit-animation: diet-rotate 3s linear;
-    animation: diet-rotate 3s linear;
-}
-
-@keyframes diet-rotate {
-    0% {
-        transform: rotate(0deg)
-    }
-    100% {
-        transform: rotate(180deg)
-    }
-}
-
-@-webkit-keyframes diet-rotate {
-    0% {
-        transform: rotate(0deg)
-    }
-    100% {
-        transform: rotate(180deg)
-    }
 }
 
 //* Behavior panel *//
