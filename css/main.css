@@ -87,7 +87,7 @@ h1 {
     width: 100px;
     height: 100px;
     top: 550px;
-    left: 35%;
+    left: 50%;
 }
 
 .moon {
@@ -366,5 +366,12 @@ button {
 .panel-b p {
   margin: 0;
   padding: 0.5rem 0;
+}
+
+.u-b {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    left: 50%;
 }
 
