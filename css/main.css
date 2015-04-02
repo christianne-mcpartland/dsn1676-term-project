@@ -87,7 +87,7 @@ h1 {
     width: 100px;
     height: 100px;
     top: 550px;
-    left: 50%;
+    left: 35%;
 }
 
 .moon {
@@ -372,6 +372,7 @@ button {
     position: absolute;
     width: 100px;
     height: 100px;
-    left: 50%;
+    left: 35%;
+    padding-top: 100px;
 }
 
