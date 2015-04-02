@@ -27,3 +27,7 @@ $btnCollapseB.on('click', function () {
 });
 
 $('.d-b').localScroll();
+
+$('.u-b').localScroll();
+
+$('.habitat').localScroll();
