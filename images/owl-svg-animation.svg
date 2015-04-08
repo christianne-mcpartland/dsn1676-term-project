@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 18.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 174.9 272.2" style="enable-background:new 0 0 174.9 272.2;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#E6E6E6;stroke:#000000;stroke-width:2;stroke-miterlimit:10;}
+	.st1{fill:#FFFFFF;stroke:#000000;stroke-width:2;stroke-miterlimit:10;}
+	.st2{fill:#FFFF00;stroke:#000000;stroke-width:2;stroke-miterlimit:10;}
+	.st3{stroke:#000000;stroke-miterlimit:10;}
+	.st4{fill:#F7931E;stroke:#000000;stroke-miterlimit:10;}
+	.st5{fill:#F7931E;stroke:#000000;stroke-width:2;stroke-miterlimit:10;}
+	.st6{fill:none;stroke:#000000;stroke-width:2;stroke-miterlimit:10;}
+</style>
+<ellipse id="body" class="st0" cx="87.4" cy="171.2" rx="79.3" ry="76.8"/>
+<path id="chest" class="st1" d="M130.4,173.4c0,41.6-3.2,75.3-39.1,75.3c-46.6,0-39.1-33.7-39.1-75.3s17.5-78.9,39.1-78.9
+	S130.4,131.8,130.4,173.4z"/>
+<ellipse id="head" class="st1" cx="92.7" cy="75.3" rx="66.5" ry="63.2"/>
+<g id="yelloweyes">
+	<ellipse class="st2" cx="71.1" cy="61.6" rx="20.3" ry="20.3"/>
+	<ellipse class="st2" cx="117.9" cy="61.6" rx="20.3" ry="20.3"/>
+</g>
+<g id="pupils">
+	<ellipse class="st3" cx="115.1" cy="63.8" rx="13.4" ry="13.5"/>
+	<ellipse class="st3" cx="74.7" cy="63.8" rx="13.4" ry="13.5"/>
+</g>
+<g id="feet">
+	<ellipse class="st4" cx="109" cy="249" rx="4.2" ry="11.6"/>
+	<ellipse class="st4" cx="99.8" cy="249" rx="4.2" ry="11.6"/>
+	<ellipse class="st4" cx="117.2" cy="244.4" rx="4.2" ry="11.6"/>
+	<ellipse class="st4" cx="62.2" cy="249" rx="4.2" ry="11.6"/>
+	<ellipse class="st4" cx="71.4" cy="249" rx="4.2" ry="11.6"/>
+	<ellipse class="st4" cx="53.9" cy="244.4" rx="4.2" ry="11.6"/>
+</g>
+<path id="nose" class="st5" d="M103.1,83.4l-8.4-9.5l-8.2,9.5c0,0,3.2,15.3,8.2,16.4C94.7,99.9,100.8,94.4,103.1,83.4z"/>
+<g id="chest_pattern">
+	<polyline class="st6" points="123.8,156.7 114.8,165.7 106,157 	"/>
+	<polyline class="st6" points="100.8,162.2 91.8,171.2 83.1,162.5 	"/>
+	<polyline class="st6" points="76.1,156.7 67.1,165.7 58.3,157 	"/>
+	<polyline class="st6" points="123.8,178.8 114.8,187.8 106,179 	"/>
+	<polyline class="st6" points="100.8,184.3 91.8,193.3 83.1,184.5 	"/>
+	<polyline class="st6" points="76.1,178.8 67.1,187.8 58.3,179 	"/>
+	<polyline class="st6" points="123.8,199 114.8,208 106,199.2 	"/>
+	<polyline class="st6" points="100.8,204.5 91.8,213.5 83.1,204.7 	"/>
+	<polyline class="st6" points="76.1,199 67.1,208 58.3,199.2 	"/>
+</g>
+</svg>
