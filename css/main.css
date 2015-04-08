@@ -429,7 +429,7 @@ button {
 
 #pupils {
     animation: eyes-twitch 1s linear infinite;
-    -webkit-animation: eyes-twitch 10s ease infinite;
+    -webkit-animation: eyes-twitch 5s ease infinite;
 }
 
 @-webkit-keyframes eyes-twitch {
