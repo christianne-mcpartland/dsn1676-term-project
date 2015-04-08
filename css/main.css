@@ -421,13 +421,15 @@ button {
 .snowy {
     width: 300px;
     height: 300px;
-    position: absolute;
-    top: 100%;
+    top: 1200px;
+    left: 45%;
+    padding: 1rem;
+    overflow: hidden;
 }
 
 #pupils {
     animation: eyes-twitch 1s linear infinite;
-    -webkit-animation: eyes-twitch 1s linear infinite;
+    -webkit-animation: eyes-twitch 10s ease infinite;
 }
 
 @-webkit-keyframes eyes-twitch {
