@@ -1,5 +1,6 @@
 var $btnExpand = $(".btn-expand");
 var $togglePanel = $('.toggle-panel');
+var $eyeBalls = $('.snowy2');
 
 $btnExpand.on('click', function() {
     $togglePanel.toggleClass('toggle-panel-expand');
@@ -24,6 +25,10 @@ var $panelB = $('.panel-b');
 
 $btnCollapseB.on('click', function () {
     $panelB.toggleClass('js-panel-collapse-b');
+});
+
+$eyeBalls.on('click', function () {
+    $eyeBalls.toggleClass('js-active');
 });
 
 $('.d-b').localScroll();

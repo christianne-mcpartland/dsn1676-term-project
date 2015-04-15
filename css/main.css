@@ -426,7 +426,7 @@ button {
     stroke-miterlimit:10;
 }
 
-.snowy {
+.snowy2 {
     width: 300px;
     height: 300px;
     top: 1200px;
@@ -435,7 +435,7 @@ button {
     overflow: hidden;
 }
 
-#pupils {
+.js-active #pupils {
     animation: eyes-twitch 1s linear infinite;
     -webkit-animation: eyes-twitch 3s ease infinite;
 }
@@ -458,28 +458,7 @@ button {
     }
 }
 
-#yelloweyes {
-    animation: eyes-twitch 1s linear infinite;
-    -webkit-animation: eyes-twitch 3s ease infinite;
-}
 
-@-webkit-keyframes eyes-twitch {
-    0% {
-        -webkit-transform: scale(1,1);
-    }
-    100% {
-        -webkit-transform: scale(1.5,1.5);
-    }
-}
-
-@keyframes eyes-twitch {
-    0% {
-        transform: scale(1,1);
-    }
-    100% {
-        transform: scale(1.03,1.03);
-    }
-}
 
 
 
