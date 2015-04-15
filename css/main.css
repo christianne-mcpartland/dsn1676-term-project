@@ -445,7 +445,7 @@ button {
         -webkit-transform: scale(1,1);
     }
     100% {
-        -webkit-transform: scale(1.5,1.5);
+        -webkit-transform: scale(1.05,1.05);
     }
 }
 
