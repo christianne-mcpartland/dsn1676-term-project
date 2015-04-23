@@ -374,10 +374,11 @@ button {
     height: 100px;
     left: 35%;
     padding-top: 100px;
+    padding-bottom: 150px;
 }
 
 .grey {
-    background-color: lightgray;
+    background-color: #efdfa5;
 }
 
 .species {
